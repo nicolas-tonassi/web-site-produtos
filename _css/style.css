@@ -1,0 +1,46 @@
+nav#menu ul{
+  text-transform: uppercase;  
+  list-style: none;
+  position: absolute;
+  top: 50px;
+  left: 900px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color:rgba(107, 160, 240, 0.473);
+    padding:15px
+}
+nav#menu h1{
+  display: none;
+
+}
+body{
+  background-color:rgba(74, 250, 74, 0.479);
+  margin: 0px;
+}
+header{
+  background-color:rgba(135, 223, 245, 0.918);
+  padding-top: 60px;
+  margin:0px;
+  position:relative;
+  top: -10px;
+}
+img{
+  width: 15%;
+  position: relative;
+  left: 25px;
+  top: 5px
+}
+nav#menu a:link{
+  text-decoration: none;
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+nav#menu a:visited{
+color: black;
+}
+nav#menu a:hover{
+  color:aliceblue;
+  transition: all 0.3s ease;
+}
